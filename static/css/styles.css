@@ -1,0 +1,47 @@
+.precaution-title{
+  font-size: 1.5rem;
+}
+.precautions{
+  padding: 0.5rem 8rem 2rem;
+  position: relative;
+  text-align: center;
+}
+/* precautions */
+.precaution-text{
+  padding: 3rem;
+}
+
+.precaution-logo{
+  color: #A5E6FF;
+  margin: 1.5rem;
+  font-size: 4rem;
+}
+
+.precaution-logo:hover{
+  color: #7DBBFF;
+}
+
+.precaution-para{
+  color: #8f8f8f;
+}
+
+.colored-section{
+  background-color: #7DBBFF;
+  color: white;
+  text-align: center;
+}
+
+.testimonial-image{
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}

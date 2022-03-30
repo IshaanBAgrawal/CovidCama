@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include 'header.html' %}
+<body>
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('{{ url_for('static', filename="img/home-bg.jpg") }}')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading">
+            <h1>CovidCama</h1>
+            <span class="subheading">A Mission to Fight Covid-19.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+{#  Main Content#}
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto" style="font-family: SansSerif; font-size: 1.5rem;">
+        <p>COVID‐19, which was initiated regionally at Wuhan of China, has become a global pandemic by infecting people
+            of almost all the world. Human civilizations are facing threat for their survival and livelihood. No country
+            are getting any substantial relief and solution from this pandemic rather to convince their citizens to make
+            aware and taking precaution by changing their living style.</p>
+
+          <p>COVID‐19 started from one city of China in December 2019, but in a short span of time, it covered almost
+              all over the world. Nearly 216 countries of the whole world are struggling for their civilization and
+              livelihood against the coronavirus pandemic.</p>
+        <p>It presents an important and urgent threat to global health and its effect is even worse in the middle- and
+            low-income countries, like our India, where the health system is weak and fragile.</p>
+          <p>Therefore, it is necessary to take precautions to protect ourselves from this disease.
+              <a href="{{ url_for('precautions') }}">Here are some tips.</a></p>
+      </div>
+    </div>
+  </div>
+  <hr>
+{% include 'footer.html' %}
+</body>
+
+</html>
